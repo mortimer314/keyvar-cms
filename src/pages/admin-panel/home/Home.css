@@ -1,3 +1,21 @@
-.homePage{
- 
+@import "./fonts.css";
+
+.home{
+   min-height: calc(100vh);
+   font-family: "IRANSans";
+}
+.main-home{
+   position: relative;
+   z-index: 1;
+}
+.sidebar-column{
+   height: calc(100vh - 6rem);
+   position: sticky;
+   z-index: 1;
+   right: 0;
+   bottom: 0;
+   top: 6rem;
+}
+.mainbar-column{
+   /* min-height: auto; */
 }
